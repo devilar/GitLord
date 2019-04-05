@@ -405,17 +405,23 @@ echo $header; ?>
               </form>
             </div>
             <?php } ?>
+
+
              <?php if (isset($category_id) && $category_id == 125){?>
               <div class="tab-pane" id="tab-serts">
                 <a class="link-text" href="/image/pas_inst_mkf.pdf">Инструкция по сборке «Стеллаж металлический сборноразборный серии МКФ» ТУ 9693-001-76628652-2011</a>
               </div>
             <?php } ?>
+
+            
              <?php if (isset($category_id) && $category_id == 119){?>
               <div class="tab-pane" id="tab-serts">
                 <a class="link-text" href="image/pas_inst_stf_l.pdf">Инструкция по сборке и размещению стеллажей серии СТФ</a><br/>
                 <a class="link-text" href="image/sert_MZ_new.jpg">Декларация о соответствии</a>
               </div>
             <?php } ?>
+            <!--new-->
+            
 
 
 
