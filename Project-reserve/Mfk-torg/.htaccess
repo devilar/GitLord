@@ -1,0 +1,48 @@
+<FilesMatch "\.md5$">
+    Deny from all
+</FilesMatch>
+
+DirectoryIndex index.php
+Options -Indexes
+# Comment the following line, if option Multiviews not allowed here
+Options -MultiViews
+
+
+<ifModule mod_rewrite.c>
+    RewriteEngine On
+    # Uncomment the following line, if you are having trouble
+    #RewriteBase /
+
+    RewriteCond %{REQUEST_URI} !\.(js|css|jpg|jpeg|gif|png)$ [or]
+    RewriteCond %{REQUEST_URI} apple-touch-icon\.png$
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [L,QSA]
+</ifModule>
+
+<ifModule mod_headers.c>
+    <FilesMatch "\.(jpg|jpeg|png|gif|js|css)$">
+	Header set Cache-Control "max-age=3153600, public"
+    </FilesMatch>
+
+    Header set Demis-info "redirect start point"
+
+</ifModule>
+
+php_value default_charset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml
+
+Redirect 301 /category/zashchelki-chemodannye/ https://mfk-torg.ru/category/mebelnaya-furnitura/zashchelki-chemodannye/
+Redirect 301 /kolesa/ https://mfk-torg.ru/category/kolesa/
+Redirect 301 /truby-i-sistema-joker/ https://mfk-torg.ru/category/truby-i-sistema-joker/
+Redirect 301 /mebelnaya-furnitura/ https://mfk-torg.ru/category/mebelnaya-furnitura/
+Redirect 301 /aksessuary-dlya-kukhni/ https://mfk-torg.ru/category/aksessuary-dlya-kukhni/
+Redirect 301 /zashchelki-chemodannye/ https://mfk-torg.ru/category/zashchelki-chemodannye/
+Redirect 301 /category/kolesa/tachki-i-telezhki https://mfk-torg.ru/
+Redirect 301 /category/cart/add/ https://mfk-torg.ru/
+Redirect 301 /category/kolesa/tachki-i-telezhki/tachka-stroitelnaya-usilennaya/ https://mfk-torg.ru/
+Redirect 301 /category/telezhki-i-shtabelery-gidravlicheskie/ https://mfk-torg.ru/
+Redirect 301 /category/truby-i-sistema-joker/krepezh-o32/jr-6632-krepezh-t-obraznyy-32-25mm-r8b/jr-6632-krepezh-t-obraznyy-32-25mm-r8b/ https://mfk-torg.ru/
+Redirect 301 /kolesa/tachki-i-telezhki/tachka-stroitelnaya-usilennaya/ https://mfk-torg.ru/
+Redirect 301 /moyki/moyka-570kh450-tolshch08mm-glub180mm-4105012/ https://mfk-torg.ru/
+Redirect 301 /wa-data/public/shop/img/sde-2k.jpg/ https://mfk-torg.ru/
