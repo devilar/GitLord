@@ -1,7 +1,0 @@
-<?php
-return array (
-  'params' => 
-  array (
-  ),
-  'reader' => 'C:13:"shopCsvReader":512:{a:9:{s:4:"file";s:71:"/home/c/cl36655/public_html/wa-cache/temp/shop/csv/upload/csv6bC3a9.csv";s:5:"files";a:1:{i:0;s:71:"/home/c/cl36655/public_html/wa-cache/temp/shop/csv/upload/csv6bC3a9.csv";}s:9:"delimiter";s:1:";";s:8:"encoding";s:5:"UTF-8";s:12:"data_mapping";a:2:{s:12:"skus:-1:name";i:0;s:29:"features:gabarity_ploshchadki";i:1;}s:3:"key";i:2;s:10:"offset_map";a:0:{}s:7:"columns";a:2:{i:0;a:2:{i:0;s:28:"shopCsvProductviewController";i:1;s:15:"tableRowHandler";}i:1;s:6:"&nbsp;";}s:5:"count";s:2:"~2";}}',
-);

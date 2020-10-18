@@ -1,7 +1,0 @@
-<?php
-return array (
-  'params' => 
-  array (
-  ),
-  'reader' => 'C:13:"shopCsvReader":526:{a:9:{s:4:"file";s:71:"/home/c/cl36655/public_html/wa-cache/temp/shop/csv/upload/csvGq1oQ2.csv";s:5:"files";a:1:{i:0;s:71:"/home/c/cl36655/public_html/wa-cache/temp/shop/csv/upload/csvGq1oQ2.csv";}s:9:"delimiter";s:1:";";s:8:"encoding";s:5:"UTF-8";s:12:"data_mapping";a:3:{i:-1;i:0;s:11:"skus:-1:sku";i:1;s:21:"skus:-1:compare_price";i:2;}s:3:"key";i:69;s:10:"offset_map";a:1:{i:64;i:9998;}s:7:"columns";a:2:{i:0;a:2:{i:0;s:28:"shopCsvProductviewController";i:1;s:15:"tableRowHandler";}i:1;s:6:"&nbsp;";}s:5:"count";s:3:"~69";}}',
-);

@@ -1,7 +1,0 @@
-.pre-header, #inside-header, .footer, .postfooter, .breadcrumb-wrapper, .binary, .nvr, .mail, #config, .print, svg{
-    display: none;
-}
-#result {
-    display: block;
-    width: 100%;
-}
